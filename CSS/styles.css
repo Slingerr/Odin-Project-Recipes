@@ -21,3 +21,17 @@ img{
     max-width: 420px;
     max-height: auto;
 }
+
+figure{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+figcaption{
+    align-self: center;
+    border-left: 1em solid green;
+    padding-left: 1em;
+    margin-left: 2em;
+    width: 25vw;
+}
