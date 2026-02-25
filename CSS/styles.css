@@ -1,6 +1,18 @@
-.pageName{
+.pageName ,
+h1,
+h2{
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: green;
     color: white;
+}
+
+ul.ingredients{
+    column-count: 4;
+    box-sizing: content-box;
+    list-style: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px;
+    outline: 4px solid green;
+
 }
