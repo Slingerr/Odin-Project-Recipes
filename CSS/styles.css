@@ -16,3 +16,8 @@ ul.ingredients{
     outline: 4px solid green;
 
 }
+
+img{
+    max-width: 420px;
+    max-height: auto;
+}
